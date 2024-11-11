@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-content { 
+            padding: 40px 20px;
+        }
+        
+        .body-one h3 {
+            color: #f9b054;
+            margin: 30px;
+            font-size: 2.4em;
+            font-style: bold;
+        }
+        .body-one p {
+            font-size: 1.6em;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .btn-custom {
+            background-color: #00bf63;
+            color: white;
+            margin-top: 10px;
+            font-size: 1.2em;
+            padding: 10px 20px;
+        }
+        .about-heading {
+            font-size: 3em;
+            font-weight: bold;
+            color: #3f3f3f;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .about-content {
+            flex: 1 1 60%;
+            margin-right: 20px;
+        }
+        .about-image {
+    flex: 1 1 35%;
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+<body>
+
+<!-- header is here -->
+<header class="header">
+    <a href="index.html"><img src="logo.png" alt=""></a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">Service</a>
+        <a href="about.html">About</a>
+        <a href="tutorialVideo.html">Tutorial Video</a>
+        <a href="#">Profile</a>
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+</header>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="about-heading">About Us</h1>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="about-container">
+        <div class="about-content">
+            <div class="page-content">
+                <div class="body-one">
+                    <h3>Our Mission</h3>
+                    <p>At Sab Marga, our mission is to enhance public transportation in Nepal by leveraging technology to provide accurate, real-time information. We aim to make bus travel more reliable, efficient, and convenient for everyone.</p>
+                    <h3>Our Services</h3>
+                    <p>At Sab Marga, we transform your bus travel experience with real-time tracking and comprehensive route information. Our user-friendly interface provides easy access to bus locations, schedules, and timely updates. Stay informed, avoid unnecessary waiting, and travel with confidence with Sab Marga.</p>
+                    <h3>Contact Us</h3>
+                    <p>Please contact us if you have any inquiries or would want to work together.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:sabmarga@gmail.com">sabmarga@gmail.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+9818100590">9810190590</a></p>
+                    </div>
+                    <a href="#" class="btn btn-custom">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="aboutus.jpg" alt="Description of image">
+        </div>
+    </div>
+</div>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" id="home"><i class="fas fa-chevron-right"></i>Home</a>
+            <a href="index.html" id="service"><i class="fas fa-chevron-right"></i>Service</a>
+            <a href="about.html" id="about"><i class="fas fa-chevron-right"></i>About</a>
+            <a href="FAQs.html"><i class="fas fa-chevron-right"></i>FAQs</a>
+        </div>
+        <div class="box">
+            <h3>our services</h3>
+            <a href="Pickme.html"><i class="fas fa-chevron-right"></i>Destination Pick</a>
+            <a href="busfare.html"><i class="fas fa-chevron-right"></i>Fare Information</a>
+            <a href="Games.html"><i class="fas fa-chevron-right"></i>Games</a>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+            <a href="#"><i class="fas fa-envelope"></i>zen@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Maitidevi, Kathmandu</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+        </div>
+    </div>
+    <div class="credit">
+        &copy; 2024 Zen <sup>2</sup> | all rights reserved |
+    </div>
+</section>
+
+<!-- custom js link -->
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

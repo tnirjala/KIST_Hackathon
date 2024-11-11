@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs Section</title>
+    <!-- <link rel="stylesheet" href="FAQ.css"> -->
+     <link rel="stylesheet" href="header.css">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap">
+
+    <style>
+
+
+.faq-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding-top: 60px;
+  
+}
+
+.faq-header {
+    background: linear-gradient(135deg, #28a745, #218838);
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-header h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+}
+
+.faq-header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.faq-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition:  0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+    background: #e9f7ef; /* Light green background on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item .icon {
+    font-size: 40px;
+    color: #28a745;
+    margin-right: 20px;
+}
+
+.faq-item .content {
+    text-align: left;
+}
+
+.faq-item h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.faq-item a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+/* Collapsible Content */
+.faq-item .content {
+    overflow: hidden;
+    max-height: 200px; /* Adjust based on content */
+    transition: max-height 0.3s ease;
+}
+
+.faq-item .content.expanded {
+    max-height: 1000px; /* Adjust based on content */
+}
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <header class="header">
+        <!-- <a href="#" class="logo"><i class="fas fa-heartbeat"></i>medcare.</a> -->
+         <a href="index.html"><img src="logo.png" alt=""></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html">service</a>
+            <a href="about.html">about</a>
+            <a href="tutorialVideo.html">Tutorial video</a>
+            <a href="#Profile">profile</a>
+        </nav>
+    
+    <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    
+    <div class="faq-container">
+        <div class="faq-header">
+            <h1>FAQ</h1>
+            <p></p>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>मैले मेरो पासवर्ड बिर्सें भने, म कसरी पुन: प्राप्त गर्न सक्छु?</h3>
+                <p>यदि तपाईंले आफ्नो पासवर्ड बिर्सनुभएको छ भने, हाम्रो वेबसाइटमा जानुहोस् र 'पासवर्ड बिर्सनुभयो?' भन्ने विकल्पमा क्लिक गर्नुहोस्। तपाईंको ईमेल ठेगाना प्रविष्ट गर्नुहोस् र हामी तपाईंलाई पासवर्ड पुन: सेट गर्ने लिंक पठाउनेछौं।</p>
+               
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>के सब मार्गले विभिन्न शहरहरूमा सेवा प्रदान गर्दछ?</h3>
+                <p>हो, सब मार्गले विभिन्न शहरहरूमा बस सेवाहरूको जानकारी उपलब्ध गराउँछ।</p>
+                
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>के सब मार्गको सेवा नि:शुल्क छ?</h3>
+                <p>हो, सब मार्गको सेवा नि:शुल्क छ। तपाईंले बसको समय र भाडा सम्बन्धित जानकारी नि:शुल्क प्राप्त गर्न सक्नुहुन्छ।</p>
+                
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>कसरी म मेरो खाता मेट्न सक्छु?</h3>
+                <p>यदि तपाईं आफ्नो खाता मेट्न चाहनुहुन्छ भने, कृपया हाम्रो सहायता केन्द्रमा सम्पर्क गर्नुहोस् र हामी तपाईंको अनुरोधलाई प्रक्रिया गर्नेछौं।</p>
+               
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>मैले बसको समय तालिका अद्यावधिक भएको देखिरहेको छैन, के गरौं?</h3>
+                <p>यदि तपाईंले बसको समय तालिका अद्यावधिक भएको देख्नुभएन भने, कृपया पृष्ठ पुन: लोड गर्नुहोस् वा हाम्रो सहायता केन्द्रमा सम्पर्क गर्नुहोस्।</p>
+                
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>मेरो स्थान फेला पार्न सब मार्गले के प्रयोग गर्छ?</h3>
+                <p>सब मार्गले तपाईंको स्थान फेला पार्न जीपीएस (GPS) प्रयोग गर्दछ। तपाईंले आफ्नो स्थान शेयर गर्दा मात्र यो सुविधा प्रयोग गर्न सकिन्छ।</p>
+                
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="icon"><i class="fa-solid fa-bullseye-arrow"></i></div>
+            <div class="content">
+                <h3>कसरी म मेरो गन्तव्य र मार्गको जानकारी प्राप्त गर्न सक्छु?</h3>
+                <p>हाम्रो वेबसाइटमा गएर तपाईंले आफ्नो स्थान र गन्तव्य प्रविष्ट गर्नुहोस्। त्यसपछि तपाईंले बसको समय, मार्ग र भाडा सम्बन्धित जानकारी प्राप्त गर्न सक्नुहुन्छ।</p>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html" id="home"><i class="fas fa-chevron-right"></i>Home</a>
+                <a href="index.html" id="service"><i class="fas fa-chevron-right"></i>Service</a>
+                <a href="about.html" id="about"><i class="fas fa-chevron-right"></i>About</a>
+                <a href="FAQs.html"><i class="fas fa-chevron-right"></i>FAQs</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>our services</h3>
+                <a href="Pickme.html"><i class="fas fa-chevron-right"></i>Destination Pick</a>
+                <a href="busfare.html"><i class="fas fa-chevron-right"></i>Fare Information</a>
+                <a href="Games.html"><i class="fas fa-chevron-right"></i>Games</a>
+    
+    
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"><i class="fas fa-envelope"></i>zen@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Maitidevi, Kathmandu</a>
+              
+    
+            </div>
+    
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+    
+            </div>
+        </div>
+        <div class="credit">
+         &copy; 2024 Zen <sup>2</sup>   | all rights reserved | 
+          </div>
+          
+    </section>
+
+
+
+
+
+    <script src="FAQ.js"></script>
+</body>
+</html>

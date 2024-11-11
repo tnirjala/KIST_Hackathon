@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link your custom CSS -->
+    <link rel="stylesheet" href="tic.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Tic-Tac-Toe</h1>
+        <div id="playerForm" class="player-form">
+            <form>
+                <div class="form-group">
+                    <label for="player1">Player 1</label>
+                    <input type="text" class="form-control" id="player1" required>
+                </div>
+                <div class="form-group">
+                    <label for="player2">Player 2</label>
+                    <input type="text" class="form-control" id="player2" required>
+                </div>
+                <button id="startButton" class="btn btn-primary">Start Game</button>
+            </form>
+        </div>
+        <div id="gameSection" class="game-section hidden">
+            <div id="board" class="board"></div>
+            <div id="status" class="status"></div>
+            <button id="resetButton" class="btn btn-secondary">Reset</button>
+            <button id="exitButton" class="btn btn-danger">Exit Game</button>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="tic.js"></script>
+</body>
+
+</html>

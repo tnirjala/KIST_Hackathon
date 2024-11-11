@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Fares in Kathmandu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        .container{
+            padding-top: 10%;
+            font-size: 1.5em; /* Increase font size for all text in the container */
+        }
+        .table-responsive {
+            margin-bottom: 20px;
+        }
+        .text-center {
+            color: black;
+        }
+        th {
+            color: #ff9800;
+        }
+        td {
+            color: black;
+        }
+        #search-bar {
+            margin-bottom: 20px;
+            background-color: #EAFFE1;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <!-- <a href="#" class="logo"><i class="fas fa-heartbeat"></i>medcare.</a> -->
+        <a href="index.html"><img src="logo.png" alt=""></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html">service</a>
+            <a href="about.html">about</a>
+            <a href="#Tutorial Video">Tutorial video</a>
+            <a href="#Profile">profile</a>
+        </nav>
+    
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Fare Information</h1>
+                <input type="text" id="search-bar" class="form-control" placeholder="Search for routes...">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Route</th>
+                                <th>Fare (Rs)</th>
+                                <th>Student Discount (40%)</th>
+                                <th>Old Age Discount (50%)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fare-table">
+                            <tr>
+                                <td>Ratna Park to Godavari Botanical Garden</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Old Bus Park</td>
+                                <td>15-25</td>
+                                <td>8-12</td>
+                                <td>5-10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Pashupatinath</td>
+                                <td>15-25</td>
+                                <td>8-12</td>
+                                <td>5-10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Airport</td>
+                                <td>15-25</td>
+                                <td>8-12</td>
+                                <td>5-10</td>
+                            </tr>
+                            <tr>
+                                <td>Thamel to Tridevi Sadak</td>
+                                <td>100-200</td>
+                                <td>50-100</td>
+                                <td>40-80</td>
+                            </tr>
+                            <tr>
+                                <td>Jamal Road to Boudanath Stupa</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Jamal Road to Pashupatinath Temple</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Patan</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Bhaktapur Durbar Square</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Kirtipur</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Swayambhunath</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Budhanilkantha</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Sundarijal</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Nagarkot</td>
+                                <td>35</td>
+                                <td>18</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Dhulikhel</td>
+                                <td>35</td>
+                                <td>18</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Pharping</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Changu Narayan</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Sankhu</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Kapan</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Chobhar</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Taudaha</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Khokana</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Bungamati</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Chapagaun</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Thankot</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Naikap</td>
+                                <td>25</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Chitlang</td>
+                                <td>35</td>
+                                <td>18</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Matatirtha</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Chandragiri</td>
+                                <td>35</td>
+                                <td>18</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Dakshinkali</td>
+                                <td>35</td>
+                                <td>18</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Ratna Park to Kulekhani</td>
+                                <td>40</td>
+                                <td>20</td>
+                                <td>18</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html" id="home"><i class="fas fa-chevron-right"></i>Home</a>
+                <a href="index.html" id="service"><i class="fas fa-chevron-right"></i>Service</a>
+                <a href="about.html" id="about"><i class="fas fa-chevron-right"></i>About</a>
+                <a href="FAQs.html"><i class="fas fa-chevron-right"></i>FAQs</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>our services</h3>
+                <a href="Pickme.html"><i class="fas fa-chevron-right"></i>Destination Pick</a>
+                <a href="busfare.html"><i class="fas fa-chevron-right"></i>Fare Information</a>
+                <a href="Games.html"><i class="fas fa-chevron-right"></i>Games</a>
+    
+    
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"><i class="fas fa-envelope"></i>zen@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Maitidevi, Kathmandu</a>
+              
+    
+            </div>
+    
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+    
+            </div>
+        </div>
+        <div class="credit">
+         &copy; 2024 Zen <sup>2</sup>   | all rights reserved | 
+          </div>
+          
+    </section>
+
+</body>
+</html>

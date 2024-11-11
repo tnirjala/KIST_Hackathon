@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+     <!-- custom css file link -->
+      <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- header section -->
+<header class="header">
+    <!-- <a href="#" class="logo"><i class="fas fa-heartbeat"></i>medcare.</a> -->
+     <a href="index.html"><img src="logo.png" alt=""></a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#service">service</a>
+        <a href="about.html">about</a>
+        <a href="tutorialVideo.html">Tutorial video</a>
+        <a href="#Profile">profile</a>
+    </nav>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+</header>
+<!-- home section start here  -->
+<section class="introduction">
+    <div class="video-container">
+        <!-- Add your video element here -->
+        <video autoplay muted loop playsinline>
+            <source src="sab marga.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Pick Destination button -->
+        <button class="pick-destination-btn"><a href="Pickme.html">Pick Destination</a></button>
+    </div>
+</section>
+  <section class="services" id="service">
+<h1 class="heading">Our <span>services</span></h1>
+<div class="box-container">
+
+        <div class="box">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Destination Pick</h3>
+            <p><strong>Want to find the buses available?</strong> Discover the number of routes to reach your destination effortlessly. Our service provides real-time updates on bus availability, routes, and schedules, ensuring you get to where you need to go smoothly and efficiently?</p>
+            <a href="Pickme.html" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-money-bill"></i>
+            <h3>Fare Information</h3>
+            <p><strong>Do you want to catch the bus but don't know the fare or the discounts available?</strong> Our service provides up-to-date fare information, including any discounts you might be eligible for. Plan your journey with confidence and save money on your travels.</p>
+            <a href="busfare.html" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gamepad"></i>
+            <h3>Games</h3>
+            <p><strong>Are you on the go or waiting for your bus?</strong> Pass the time with our exciting and refreshing games! Dive into our fun and interactive activities to make your journey enjoyable and stress-free. Enjoy the ride and have fun with our entertaining activities!</p>
+            <a href="Games.html" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+        </div>
+
+    </div>
+  </section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span>about</span>us</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="aboutus.jpg" alt="">
+        </div>
+        
+        <div class="content">
+            <h3>समृद्ध यात्रा, हरेक दिन</h3>
+            <p>Welcome to Sab Marga, where we're using cutting-edge technology to reinvent the bus travel experience. With the help of our user-friendly interface, comprehensive route information, and real-time tracking, you can take charge of your travels. Bid farewell to pointless delays and go with assurance. Come explore with us a fresh approach to easily navigating the public bus and travel confidently with us.
+            </p>
+            <a href="about.html" class="btn"> learn more<span class="fas fa-chevron-right"></span></a>
+        </div>
+
+
+    </div>
+<!-- booking section -->
+<section class="book" id="book">
+
+    <h1 class="heading"> <span>review</span>now</h1>
+    <div class="row">
+        <div class="image">
+            <img src="buses.jpg" alt="">
+        </div>
+
+        <form action="">
+            <h3>your review</h3>
+            <input type="text" placeholder="Your Name" class="box">
+            <input type="number" placeholder="Your Number" class="box">
+            <input type="email" placeholder="Your Email" class="box">
+            <textarea name="" id="" class="box"></textarea>
+            <input type="submit" name="" id="" value="Submit now" class="btn">
+        </form>
+    </div>
+</section>
+ <!-- Chatbot icon -->
+   <div class="chatbot-icon" onclick="openChatbot()">
+    <i class="fas fa-comments"></i>
+</div>
+
+<!-- Chatbot container -->
+<div id="chatbotContainer"></div>
+ <!-- JavaScript to toggle chatbot visibility -->
+ <script>
+    function openChatbot() {
+        var chatbotContainer = document.getElementById('chatbotContainer');
+        chatbotContainer.innerHTML = '<iframe src="chatbot.html" width="100%" height="100%"></iframe>';
+        chatbotContainer.style.display = 'block';
+    }   
+</script>
+<!-- footer section -->
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" id="home"><i class="fas fa-chevron-right"></i>Home</a>
+            <a href="index.html" id="service"><i class="fas fa-chevron-right"></i>Service</a>
+            <a href="about.html" id="about"><i class="fas fa-chevron-right"></i>About</a>
+            <a href="FAQs.html"><i class="fas fa-chevron-right"></i>FAQs</a>
+
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="Pickme.html"><i class="fas fa-chevron-right"></i>Destination Pick</a>
+            <a href="busfare.html"><i class="fas fa-chevron-right"></i>Fare Information</a>
+            <a href="Games.html"><i class="fas fa-chevron-right"></i>Games</a>
+
+
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+            <a href="#"><i class="fas fa-envelope"></i>zen@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Maitidevi, Kathmandu</a>
+          
+
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+
+        </div>
+    </div>
+    <div class="credit">
+     &copy; 2024 Zen <sup>2</sup>   | all rights reserved | 
+      </div>
+      
+</section>
+<!-- custom js link -->
+    <script src="script.js"></script>
+</body>
+</html>

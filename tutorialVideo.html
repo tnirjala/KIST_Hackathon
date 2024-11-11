@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Use Our Website?</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    </style>
+</head>
+<body>
+    <!-- header section -->
+<header class="header">
+    <a href="index.html"><img src="logo.png" alt="Logo"></a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">Service</a>
+        <a href="about.html">About</a>
+        <a href="tutorialVideo.html">Tutorial Video</a>
+        <a href="#Profile">Profile</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+</header>
+
+    <h1>How to Use Our Website?</h1>
+
+    <!-- Video section -->
+    <div class="video-container">
+        <video controls autoplay muted>
+            <source src="Video_Tutorial.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+<!-- footer section -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="index.html" id="home"><i class="fas fa-chevron-right"></i>Home</a>
+            <a href="index.html" id="service"><i class="fas fa-chevron-right"></i>Service</a>
+            <a href="about.html" id="about"><i class="fas fa-chevron-right"></i>About</a>
+            <a href="FAQs.html"><i class="fas fa-chevron-right"></i>FAQs</a>
+        </div>
+
+        <div class="box">
+            <h3>Our Services</h3>
+            <a href="Pickme.html"><i class="fas fa-chevron-right"></i>Destination Pick</a>
+            <a href="busfare.html"><i class="fas fa-chevron-right"></i>Fare Information</a>
+            <a href="Games.html"><i class="fas fa-chevron-right"></i>Games</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+            <a href="#"><i class="fas fa-envelope"></i>zen@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Maitidevi, Kathmandu</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        </div>
+    </div>
+    <div class="credit">
+     &copy; 2024 Zen <sup>2</sup> | All rights reserved | 
+    </div>
+</section>
+
+<!-- custom js link -->
+<script src="script.js"></script>
+</body>
+</html>

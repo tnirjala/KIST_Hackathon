@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px; /* Slightly rounded corners */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5); /* Orange shadow effect */
+}
+
+.player-form {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    flex: 0 0 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 2px solid #333;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#resetButton,
+#exitButton,
+#startButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+#resetButton:hover,
+#exitButton:hover,
+#startButton:hover {
+    background-color: #45a049;
+}
