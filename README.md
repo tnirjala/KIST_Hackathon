@@ -5,8 +5,10 @@ ___________________________
 Main: 
 > Route tracking of vehicles (buses).
 > Fare information.
+
 Basic:
 > User signup, and login.
+
 Additional:
 > Chatbot, and FAQs.
 > Feedback Form.
